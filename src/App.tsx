@@ -155,10 +155,10 @@ const App = () => {
           <div className="content-wrapper">
            <header className="body" id="link1">
              <div style={{ padding: "24px 10px 24px 24px" }}>
-               <h3 className="text-secondary-color" className="Pb-3">About Us</h3>
+               <h3 className="Pb-3">About Us</h3>
                <div className="pb-2">
                </div>
-               <p className="hover-text" className="pb-2">
+               <p className="pb-2">
                SolNFT is the first Text NFT collection that also serves as your Mint Pass, allowing you to get unlimited NFT airdrops of artistic representations of your token. Each version is hand-drawn by artists from all across the world.
 We're the outcasts. Persona non grata at the yacht club, written off and forgotten. We construct together. We make art together. SOLNFT unite to form a formidable force.
                </p>
@@ -177,44 +177,40 @@ We're the outcasts. Persona non grata at the yacht club, written off and forgott
               </div>
 
 
-          <div className="container" id="team">
-      <h1 className="text-center">The Team</h1>
-    <div className="row">
-      <div className="col-sm">
-        <div className="card mx-auto">
-          <img src="img/cat2.jpg"  className="img-responsive" alt="" />
-          <div className="card-body team">
-            <h5 className="card-title">CEO</h5>
-            <p className="card-text">Jhon Doe</p>
-            <a href="https://twitter.com/CryptoBoil?t=BoU5KDjJVg_ab3bXxmkYmg&s=09" className="btn btn-primary">twitter</a>
-          </div>
-        </div>
-      </div>
-      <div className="col-sm">
-        <div className="card mx-auto">
-          <img  className="w-50" src="img/cat2.jpg" className="img-responsive" alt="" />
-          <div className="card-body team">
-            <h5 className="card-title">Team memeber 2</h5>
-            <p className="card-text">The CFO</p>
-            <a href="https://twitter.com/CryptoBoil?t=BoU5KDjJVg_ab3bXxmkYmg&s=09" className="btn btn-primary">twitter</a>
-          </div>
-        </div>
-      </div>
-      <div className="col-sm">
-        <div className="col-sm">
-          <div className="card mx-auto" >
-            <img  className="w-50" src="img/cat2.jpg" className="card-img-top-3" alt="Dev"/>
-            <div className="card-body team">
-              <h5 className="card-title">Team memeber 3</h5>
-              <p className="card-text">The Developer</p>
-              <a href="https://twitter.com/CryptoBoil?t=BoU5KDjJVg_ab3bXxmkYmg&s=09" className="btn btn-primary">twitter</a>
-            </div>
-          </div>
-        </div>
+              <div className="container" id="Content">
+                <h1 className="text-center">Content</h1>
+                <div className="row">
+                  <div className="teamCard">
+                    <div className="card mx-auto">
+                      <img src="img/sssss.jpeg" className="card-img-top" alt="CEO" style={{width: `15rem` }} />
+                      <div className="card-body">
+                        <h5 className="card-title">Team memeber 1</h5>
+                        <p className="card-text">The CEO</p>
+                        <a href="https://twitter.com/CryptoBoil?t=BoU5KDjJVg_ab3bXxmkYmg&s=09" className="btn btn-primary">twitter</a>
+                      </div>
+                    </div>
 
-      </div>
-    </div>
-    </div>
+                    <div className="card mx-auto">
+                      <img src="img/sssss.jpeg" className="card-img-top" alt="CEO" style={{width: `15rem`}} />
+                      <div className="card-body">
+                        <h5 className="card-title">Team memeber 1</h5>
+                        <p className="card-text">The CEO</p>
+                        <a href="https://twitter.com/CryptoBoil?t=BoU5KDjJVg_ab3bXxmkYmg&s=09" className="btn btn-primary">twitter</a>
+                      </div>
+                    </div>
+
+                    <div className="card mx-auto">
+                      <img src="img/sssss.jpeg" className="card-img-top" alt="CEO" style={{width: `15rem`}} />
+                      <div className="card-body">
+                        <h5 className="card-title">Team memeber 1</h5>
+                        <p className="card-text">The CEO</p>
+                        <a href="https://twitter.com/CryptoBoil?t=BoU5KDjJVg_ab3bXxmkYmg&s=09" className="btn btn-primary">twitter</a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
 
 
           <div id="link3" className="container card">
